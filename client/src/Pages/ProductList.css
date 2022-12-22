@@ -1,0 +1,35 @@
+.ProductListFilterContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProductListTitle {
+  margin: 20px;
+}
+.ProductListFilterOneContainer {
+  margin: 20px;
+}
+.ProductListFilterTwoContainer {
+  margin: 20px;
+}
+.ProductListSelect {
+  padding: 10px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 380px) {
+  .ProductListFilterContainer {
+    margin: 0px 20px;
+    flex-direction: column;
+  }
+  .ProductListFilterOneContainer {
+    display: flex;
+  }
+  select {
+    margin-bottom: 10px;
+  }
+  .ProductListFilterTwoContainer {
+    display: flex;
+    margin-top: 0;
+  }
+}

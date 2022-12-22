@@ -1,0 +1,61 @@
+.loginWrapper {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://static.vecteezy.com/system/resources/previews/002/037/496/non_2x/woman-holding-multi-coloured-shopping-bags-free-photo.jpg")
+      center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginContainer {
+  padding: 20px;
+  min-width: 300px;
+  width: 25%;
+  background-color: white;
+}
+.loginTitle {
+  font-size: 24px;
+  font-weight: 300;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+.loginFormInput {
+  flex: 1;
+  min-width: 40%;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+.loginLoginButton {
+  width: 40%;
+  border: none;
+  padding: 15px 20px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.loginAnchor {
+  margin: 5px 0px;
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.loginAnchor {
+  text-decoration: none;
+  color: inherit;
+}
+@media only screen and (max-width: 380px) {
+}
+@media only screen and (max-width: 380px) {
+  .loginContainer {
+    width: 75%;
+  }
+}

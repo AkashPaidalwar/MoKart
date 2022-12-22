@@ -1,0 +1,43 @@
+.newsletterContainer {
+  height: 60vh;
+  background-color: #009ba6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.newsletterTitle {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.newsletterDescription {
+  font-size: 24px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.newsletterInputContainer {
+  width: 50%;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+}
+.newsletterInout {
+  border: none;
+  flex: 8;
+  padding-left: 20px;
+}
+.newsletterButton {
+  flex: 1;
+  border: none;
+  background-color: teal;
+  color: white;
+}
+
+@media only screen and (max-width: 380px) {
+  .newsletterInputContainer {
+    width: 80%;
+  }
+}
