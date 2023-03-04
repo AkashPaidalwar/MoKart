@@ -53,7 +53,7 @@ export default function Products({ cat, filters, sort }) {
         ? filteredProducts.map((item) => {
             return <Product item={item} key={item.id} />;
           })
-        : products.slice(0, 60).map((item) => {
+        : products.slice(0, 30).map((item) => {
             return <Product item={item} key={item.id} />;
           })}
     </div>
